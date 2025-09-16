@@ -1,0 +1,143 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #4ca3af, #236975);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 15px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.foto-perfil:hover {
+  transform: rotate(-3deg) scale(1.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 8px;
+}
+
+.links a {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: white;
+  color: #236975;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+/* Seções */
+section {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #236975;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  border-left: 5px solid #4ca3af;
+  padding-left: 10px;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Habilidades */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #e0f7fa;
+  color: #236975;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid #b2ebf2;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #236975;
+  color: white;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #236975;
+  color: white;
+  margin-top: 40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
