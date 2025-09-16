@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+
 header {
   background: linear-gradient(135deg, #4ca3af, #236975);
   color: white;
@@ -63,7 +63,7 @@ header p {
   color: #236975;
 }
 
-/* Conteúdo principal */
+
 main {
   max-width: 1000px;
   margin: 40px auto;
@@ -73,7 +73,7 @@ main {
   gap: 25px;
 }
 
-/* Seções */
+
 section {
   background: white;
   padding: 25px;
@@ -94,7 +94,7 @@ h2 {
   padding-left: 10px;
 }
 
-/* Listas */
+
 ul {
   list-style: none;
 }
@@ -108,7 +108,7 @@ ul li:last-child {
   border-bottom: none;
 }
 
-/* Habilidades */
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@ ul li:last-child {
   color: white;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   padding: 20px;
